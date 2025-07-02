@@ -11,7 +11,7 @@
 /* Hero Container */
 
 .hero-container{
-  background-image: url(/Assets/home-banner.webp);
+  background-image: url("https://s3.ap-south-1.amazonaws.com/cdn-marketplacexyz/sheba_xyz/images/webp/home-banner.webp");
   height: 450px;
   width: auto;
   background-size: cover;
