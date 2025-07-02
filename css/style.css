@@ -1,0 +1,157 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; 
+}
+
+.custom-navbar{
+
+}
+
+
+/* Hero Container */
+
+.hero-container{
+  background-image: url(/Assets/home-banner.webp);
+  height: 450px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+.motto {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 600;
+}
+.input-field{
+  border: none;
+}
+.input-field:focus{
+  outline: none;
+}
+
+/* Hero Feature */
+
+.hero-features-container{
+  margin-top: -3.5rem;
+}
+.features-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+/* Why Choose US */
+.why-us-container{
+  background-color: #fafbfc;
+}
+
+.line{
+  width: 30px;
+  height: 1px;
+  background-color: #979797;
+}
+
+/* BackGround color count Container */
+
+.counts-container,
+.contact-container
+{
+  background-color: #f4f5f8;
+}
+
+.column-border{
+  border-right: 4px solid #fff;
+}
+
+.top-55 {
+  top: 59% !important;
+}
+
+.start-55 {
+  left: 48% !important;
+}
+/* feature-number */
+.features-list{
+  border-left: 3px solid #f7f8fa;
+}
+
+.round-div{
+  background-image: linear-gradient(135deg, #23a999 1%, #00a1ba 52%, #006597);
+  height: 50px;
+  width: 50px;
+  left: -25px;
+  top: 0;
+   border-radius: 50%; 
+}
+
+.feature-number {
+  left: -5px;
+  top: 11px;
+}
+
+.feature-description{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Testimonial Description */
+
+.testimonial-description{
+  border-left: 10px solid #00a1ba;
+}
+
+.testimonial-section__content__quote-mark {
+  font-weight: 900;
+  font-size: 42px;
+  color: rgba(0,0,0,.8);
+  line-height: 0;
+}
+
+/* Button  */
+.btn-custom {
+    background-color: #fa056b !important; 
+}
+.btn-custom:hover{
+  background-color: #c71f66 !important; 
+}
+
+/* Service Reques */
+
+.service-request-image{
+  top: -128px;
+  right: 0;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #ebecef;
+}
+
+.footer-font {
+  font-size: 13px;
+}
+
+
+/* Smaller Screen */
+
+@media (max-width: 405px){
+  .hero-features-container {
+    margin-top: -1rem
+  }
+}
+
+/*  */
+
+@media (max-width: 1200px){
+  .service-request-image{
+  top: -100px;
+}
+}
+
+@media (max-width: 1200px){
+  .service-request-image{
+  top: -78px;
+}
+}
