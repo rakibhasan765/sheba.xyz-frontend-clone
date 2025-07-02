@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal Css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- External Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- External js (Boostrrap) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar custom-navbar navbar-expand-sm sticky-top bg-white">
+      <div class="container py-1">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/svg/WebsiteLogo.svg"
+            alt="sheba.xyz"
+            class="logo"
+            style="width: 125px; height: 56px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto text-center">
+            <a class="nav-link text-black fw-bold" href="#features">Features</a>
+            <a class="nav-link text-black fw-bold" href="#app">App</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Sction -->
+    <div
+      class="container-fluid hero-container d-flex justify-content-center align-items-center"
+    >
+      <div class="">
+        <div class="">
+          <h1 class="text-white text-center motto">Your personal Assistant</h1>
+          <h2 class="text-white text-center fw-bold h4">
+            One stop solution for your service. order any service, anytime
+          </h2>
+        </div>
+
+        <div class="row my-4 px-2">
+          <div class="col-sm-3 my-2">
+            <div
+              class="bg-white rounded py-3 d-flex justify-content-center align-items-center"
+            >
+              <span data-v-23f89004=""
+                ><img
+                  data-v-23f89004=""
+                  src="https://cdn-marketplacexyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/svg/location.svg"
+                  alt="location"
+              /></span>
+              <span
+                data-v-23f89004=""
+                class="location-name align-self-center ps-1"
+                >Gulshan</span
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-9 my-2">
+            <input
+              type="search"
+              class="bg-white py-3 w-100 rounded ps-3 input-field"
+              placeholder="Find your service here e.g. AC, Car, Facial …"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Features -->
+    <div class="container">
+      <div class="bg-white hero-feature-container rounded shadow-sm mb-3 mx-2">
+        <div class="row justify-content-center align-items-center">
+          <!-- AC Repair Services -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1601959826_ac_52x52.webp"
+                alt="AC Repair Services"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">AC Repair Services</p>
+            </button>
+          </div>
+
+          <!-- Appliance Repair -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1583681524_tiwnn_52x52.webp"
+                alt="Appliance Repair"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">Appliance Repair</p>
+            </button>
+          </div>
+
+          <!-- Cleaning Solution -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1583684923_tiwnn_52x52.webp"
+                alt="Cleaning Solution"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">Cleaning Solution</p>
+            </button>
+          </div>
+
+          <!-- Beauty & Wellness -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1599673571_tiwnn_52x52.webp"
+                alt="Beauty & Wellness"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">Beauty &amp; Wellness</p>
+            </button>
+          </div>
+
+          <!-- Shifting -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1732010776_tiwnn_52x52.webp"
+                alt="Shifting"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">Shifting</p>
+            </button>
+          </div>
+
+          <!-- Sheba Shop -->
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <button
+              type="button"
+              class="btn master-category-slider__button text-center w-100"
+            >
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/icons_png/1731997266_tiwnn_52x52.webp"
+                alt="Sheba Shop"
+                class="master-category-img shimmer-loading-image"
+              />
+              <p class="mt-2 mb-0">Sheba Shop</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- EMi Bunner -->
+    <div class="row justify-content-center align-items-center">
+      <button type="button" class="btn emi-banner-button">
+        <img
+          alt="EMI"
+          class="emi-banner"
+          style="width: 1110px; height: 97px"
+          src="https://cdn-marketplacedev.s3.ap-south-1.amazonaws.com/sheba_xyz/images/webp/emi-banner.webp"
+          lazy="loaded"
+        />
+      </button>
+    </div>
+
+    <!-- For Your Home Section -->
+    <div class="container">
+      <h2 class="h4 fw-bold my-4">For Your Home</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <!-- Plumbing Service -->
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="Plumbing Sanitary Services"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1732508129_plumbingsanitaryservices_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">
+            Plumbing Sanitary Services
+          </h3>
+        </div>
+
+        <!-- House Shifting -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="House Shifting Services"
+            class="secondary-category__link__image round-border shimmer-loading-image img-fluid"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1732074706_houseshiftingservices_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">House Shifting Services</h3>
+        </div>
+
+        <!-- Home Cleaning -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="Home Cleaning"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1732001441_homecleaning_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">Home Cleaning</h3>
+        </div>
+
+        <!-- Gas Stove/Burner -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="Gas Stove/Burner Services"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1732187777_gasstove/burnerservices_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">Gas Stove/Burner Services</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommended -->
+    <div class="container">
+      <h2 class="h4 fw-bold my-4">Recommended</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <!-- AC Servicing -->
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="AC Servicing"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1731928932_acservicing_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">AC Servicing</h3>
+        </div>
+
+        <!-- Home Cleaning -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="House Shifting Services"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1732001441_homecleaning_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">Home Cleaning</h3>
+        </div>
+
+        <!-- On Demand Driver -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="Home Cleaning"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1731990223_ondemanddriver_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">On Demand Driver</h3>
+        </div>
+
+        <!-- Salon Care -->
+        <div class="col-md-3 col-sm-6">
+          <img
+            class="img-fluid mx-auto d-block rounded"
+            alt="Gas Stove/Burner Services"
+            src="https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1731990299_saloncare_270x180.webp"
+          />
+          <h3 class="h6 text-center fw-bold my-2">Salon Care</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Choose US -->
+    <div class="container-fluid why-us-container mt-5 py-5">
+      <div class="container">
+        <!-- Title Section -->
+        <div class="d-flex align-items-center">
+          <div class="line mb-1 me-2"></div>
+          <h2 class="text-uppercase features-title">Why Choose Us</h2>
+        </div>
+        <h3 class="h2 fw-bold mb-3">Because We Care About Your Safety</h3>
+
+        <!-- Features and Image Row -->
+        <div class="row align-items-center">
+          <!-- Left: Features -->
+          <div class="col-lg-5">
+            <div class="row align-items-center">
+              <!-- Feature 1 -->
+              <div class="col-sm-6 px-2 my-3">
+                <div
+                  class="bg-white p-4 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    width="50"
+                    class="img-fluid me-2"
+                    src="https://cdn-marketplacexyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/png/usp_mask.png"
+                    alt="Ensuring Masks"
+                  />
+                  <div class="h6 fw-bold">
+                    Ensuring <br />
+                    Masks
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 2 -->
+              <div class="col-sm-6 px-2 my-3">
+                <div
+                  class="bg-white p-4 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    width="50"
+                    class="img-fluid me-2"
+                    src="https://cdn-marketplacexyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/png/usp_24_7.png"
+                    alt="24/7 Support"
+                  />
+                  <div class="h6 fw-bold">
+                    24/7 <br />
+                    Support
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 3 -->
+              <div class="col-sm-6 px-2 my-3">
+                <div
+                  class="bg-white p-4 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    width="50"
+                    class="img-fluid me-2"
+                    src="https://cdn-marketplacexyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/png/usp_sanitized.png"
+                    alt="Sanitising Hands & Equipment"
+                  />
+                  <div class="h6 fw-bold">
+                    Sanitising<br />Hands & Equipment
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 4 -->
+              <div class="col-sm-6 px-2 my-3">
+                <div
+                  class="bg-white p-4 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    width="50"
+                    class="img-fluid me-2"
+                    src="https://cdn-marketplacexyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/png/usp_gloves.png"
+                    alt="Ensuring Gloves"
+                  />
+                  <div class="h6 fw-bold">
+                    Ensuring <br />
+                    Gloves
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img
+              class="img-fluid mx-auto d-block rounded"
+              src="https://s3.ap-south-1.amazonaws.com/cdn-marketplacexyz/sheba_xyz/images/webp/why-choose-us.webp"
+              alt="Why choose us illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Counts -->
+    <div class="container-fluid counts-container">
+      <div class="container py-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 col-sm-6 my-3 column-border">
+            <h2 class="text-center h1 fw-bold">20,000 +</h2>
+            <h3 class="h5 text-center">Service Providers</h3>
+          </div>
+          <div class="col-md-4 col-sm-6 my-3 column-border">
+            <h2 class="text-center h1 fw-bold">2,00,000 +</h2>
+            <h3 class="h5 text-center">Order Served</h3>
+          </div>
+          <div class="col-md-4 col-sm-6 my-3">
+            <h2 class="text-center h1 fw-bold">1,00,000+</h2>
+            <h3 class="h5 text-center">5 Star Received</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How It Works -->
+    <div id="features" class="container-fluid my-5 py-5">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="line mb-1 me-2"></div>
+          <h2 class="text-uppercase features-title">How it works</h2>
+        </div>
+        <h3 class="h2 fw-bold mb-3">Easiest way to get a service</h3>
+        <div class="row align-items-center mt-5">
+          <div class="col-lg-6">
+            <div class="position-relative d-inline-block">
+              <!-- Thumbnail Image -->
+              <img
+                src="/Assets/process-thumbnail.webp"
+                alt="How Sheba Works Thumbnail"
+                class="img-fluid"
+              />
+              <!-- Play Button Overlay -->
+              <img
+                src="https://cdn-marketplacedev.s3.ap-south-1.amazonaws.com/play-btn.svg"
+                alt="Play button"
+                class="img-fluid position-absolute top-55 start-55 translate-middle"
+                style="width: 74px; height: 74px; cursor: pointer"
+              />
+            </div>
+          </div>
+
+          <!-- Right Side: Steps -->
+          <div class="col-lg-6 ps-5 pt-5">
+            <div
+              class="features-list position-relative d-flex align-items-center pb-5"
+            >
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="round-div round-circle position-absolute"></div>
+                <div class="feature-number text-white h4 position-absolute">
+                  1
+                </div>
+              </div>
+              <div class="feature-description-container ms-5">
+                <h2 class="h5 fw-bold">Select The Service</h2>
+                <h3 class="feature-description">
+                  Pick the service you are looking for — from the website or the
+                  app.
+                </h3>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+
+            <div
+              class="features-list position-relative d-flex align-items-center pb-5"
+            >
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="round-div round-circle position-absolute"></div>
+                <div class="feature-number text-white h4 position-absolute">
+                  2
+                </div>
+              </div>
+
+              <div class="feature-description-container ms-5">
+                <h2 class="h5 fw-bold">Pick your schedule</h2>
+                <h3 class="feature-description">
+                  Pick your convenient date and time to avail the service. Pick
+                  the service provider based on their rating.
+                </h3>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+
+            <div
+              class="features-list position-relative d-flex align-items-center pb-5"
+            >
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="round-div round-circle position-absolute"></div>
+                <div class="feature-number text-white h4 position-absolute">
+                  3
+                </div>
+              </div>
+
+              <div class="feature-description-container ms-5">
+                <h2 class="h5 fw-bold">Place Your Order & Relax</h2>
+                <h3 class="feature-description">
+                  Review and place the order. Now just sit back and relax. We’ll
+                  assign the expert service provider’s schedule for you.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+
+    <div class="container-fiuid testimonial-container my-5 py-5">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="line mb-1 me-2"></div>
+          <h2 class="text-uppercase features-title">SOME HAPPY FACES</h2>
+        </div>
+        <h3 class="h2 fw-bold mb-3">Real Happy Customers, Real Stories</h3>
+        <div class="row justify-content-between align-items-center mt-5">
+          <div class="col-lg-6">
+            <div class="testimonial-description p-4">
+              <p class="lh-lg fst-italic h5">
+                <span
+                  data-v-147a51d5=""
+                  class="testimonial-section__content__quote-mark"
+                  >“</span
+                >
+                Initially I was reluctant. I wasn’t sure how an online platform
+                would be.Sheba.xyz was able to complete the job just as I
+                imagined it to be. Thanks to them, they made it possible.
+              </p>
+              <h3 class="h6 mt-3">- Arif Ur Rahman</h3>
+              <h4 class="features-title text-start">Partner</h4>
+              <h5 class="h6">Flyout BD</h5>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid mx-auto d-block rounded"
+              src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/testimonial-3.webp"
+              alt="testimonial"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Download Our App -->
+    <div id="app" class="container my-5 py-5">
+      <div class="row">
+        <div class="col-lg-5">
+          <img
+            class="img-fluid mx-auto d-block"
+            src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/images/app-download.webp"
+            alt="app-download"
+          />
+        </div>
+        <div class="col-lg-7 d-flex justify-content-center align-items-center">
+          <div class="">
+            <div class="d-flex align-items-center">
+              <div class="line mb-1 me-2"></div>
+              <h2 class="text-uppercase features-title">Download Our App</h2>
+            </div>
+            <h3 class="h2 fw-bold mb-3">Any Service, Any Time, Anywhere.</h3>
+            <p class="mt-3">Give us your mobile number. You’ll get an SMS with the app download link.</p>
+          <input type="text" placeholder="Type your mobile number" class="border py-3 w-75 h6 ps-3 rounded input-field">
+
+          <button type="button" class="px-4 py-3 text-white h6 round-border border-0 btn-action btn btn-custom" >Get the app</button>
+
+          <div class="d-flex flex-wrap gap-3 mt-3">
+            <img width="170" class="img-fluid" src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/play-store.png"alt="google play">
+            <img width="170" class="img-fluid" src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/app-store.png" alt="app store">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact  -->
+     <div class="container-fluid contact-container mt-5 py-5 position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-6 col-12">
+            <h2 class="h4 fw-bold">
+              Can’t find your desired service? Let us know 24/7 in 16516.
+            </h2>
+            <button type="button" class="px-4 py-3 text-white h6 round-border border-0 btn-action btn btn-custom" >Request a service</button>
+          </div>
+
+          <div class="col-lg-4 col-md-5 col-sm-6 d-none d-sm-block">
+            <img class="img-fluid position-absolute service-request-image" src="Assets/service-request.png" alt="Service Request">
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!-- Footer  -->
+
+     <div class="footer-container container-fiuid py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-sm-4 col-6">
+                <h2 class="footer-font fw-bold text-uppercase">Contact</h2>
+                <a class="footer-font text-decoration-none text-black" href="tel:+16516 / 8809643240103">16516 / 8809643240103</a><br>
+                <a class="footer-font text-decoration-none text-black" href="mailti:info@sheba.xyz">info@sheba.xyz</a>
+               <h2 class="footer-font fw-bold text-uppercase mt-3">Corporate Address</h2>
+                <p class="footer-font">M&S Tower, Plot: 2, Road: 11, <br> Block: H, Banani, Dhaka </p>
+
+                <h2 class="footer-font fw-bold text-uppercase mt-3">Trade License No</h2>
+                <p class="footer-font">TRAD/DNCC/145647/2022</p>
+              </div>
+
+
+              <div class="col-sm-4 col-6">
+                <h2 class="footer-font fw-bold text-uppercase">Other Pages</h2>
+                <a class="text-decoration-none footer-font text-black" href="/">Blog</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">Help</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">Terms of use</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">Privacy Policy</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">Refund & Return Policy</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">Sitemap</a><br>
+              </div>
+
+
+              <div class="col-sm-4 col-6">
+                <h2 class="footer-font fw-bold text-uppercase">Company</h2>
+                <a class="text-decoration-none footer-font text-black" href="/">sManager</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">sBusiness</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">sDelivery</a><br>
+                <a class="text-decoration-none footer-font text-black" href="/">sBondhu</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-font text-uppercase text-end fw-bold">Download Our App</h2>
+            <p class="footer-font text-end">your to-do list wherever you are with our mobile app & make your life easy.</p>
+
+              <div class="d-flex flex-wrap justify-content-center align-items-center">
+
+                 <img width="130" class="img-fluid mt-1 mx-auto d-block" src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/play-store.png"alt="google play">
+
+            <img width="122" class="img-fluid mt-1 mx-auto d-block" src="https://cdn-shebaxyz.s3.ap-south-1.amazonaws.com/sheba_xyz/app-store.png" alt="app store">
+              </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <footer>
+      <p class="mb-0 py-3 footer-font text-center bg-footer">&copy; 2025 Sheba Platform Limited | All Rights Reserved
+    </p>
+     </footer>
+  </body>
+</html>
